@@ -8,13 +8,6 @@
       "when": 1747292612606,
       "tag": "0000_add-profiles",
       "breakpoints": true
-    },
-    {
-      "idx": 1,
-      "version": "7",
-      "when": 1747405930724,
-      "tag": "0001_add-all-models",
-      "breakpoints": true
     }
   ]
 }

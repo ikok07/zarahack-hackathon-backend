@@ -6,6 +6,7 @@ export function catchErrors(handler: RequestHandler) {
     try {
       await handler(req, res, next);
     } catch(e) {
+      console.error(e);
       if (e instanceof AppError) {
         res.status(e.status).json({
           error: e.message || "Internal server error!"
